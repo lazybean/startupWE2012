@@ -32,6 +32,10 @@ footer {
 	margin-top: 30px;
 }
 
+img {
+    border: none;
+}
+
 /*Page Elemets*/
 #title {
 	color: darkgrey;
