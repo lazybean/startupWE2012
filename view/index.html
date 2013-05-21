@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Fair Traveler</title>
+        <link rel="stylesheet" href="../public/css/fairtraveler.css">
+        <link rel="stylesheet" href="../public/css/gridDesc.css">
+		<!--link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/gallery-2013.01.09-23-24/build/gallerycss-cssform/gallerycss-cssform.css"-->
+	</head>
+	<body>
+		<header>	
+			<div class="left">
+				
+			</div>
+			<div class="right">
+				<div id="login">
+					<a href="" target="_blank"><img src="../public/image/login.jpg"/></a> / 
+					<a href="" target="_blank"><img src="../public/image/signup.jpg" /></a>
+					<a href="" target="_blank"><img src="../public/image/fb.jpg"/></a>
+					<a href="" target="_blank"><img src="../public/image/t.jpg"/></a>
+				</div>
+                <a href="./index.html">
+                <img id="logo"  src="../public/image/logo.png"/>
+                </a>
+			</div>
+		</header>
+		
+		<div id="content">
+			<div class="left">
+				<img class="background" id="changingBadImg" src=""/>
+                
+			</div>
+            
+			<div class="right">
+                
+                <img class="background" id="changingImg" src=""/>
+        
+				<div id="box-search"><form>
+					<button type="submit"><a href="result.html">Search</a></button>
+					<input type="text" placeholder="I'm going to..">
+					<label>I'm looking for:<br/>
+						<img src="../public/image/air.png" title="air"/>
+						<img src="../public/image/waste.png" title="waste"/>
+						<img src="../public/image/energy.png" title="energy"/>
+						<img src="../public/image/noise.png" title="noise"/>
+					</label>
+					<input type="text" placeholder="Check-in">
+					<input type="text" placeholder="Check-out">
+					<label>Guests: <select>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+					</select></label>
+				</form>   
+				</div>
+                <div id="hotelQuote">Making the world a bit better, and traveler much more happier!</div>
+			</div>
+		</div>
+        
+        <div id="tripleDesc" class="y-g-responsive">
+            <div class="y-u-1-3">
+            <div class="item"><h3>Providers</h3>
+                <p>Veggies sunt bona vobis, proinde vos postulo esse magis maize horseradish grape brussels sprout spring onion ricebean sierra leone bologi welsh onion desert raisin cucumber zucchini bunya nuts prairie turnip coriander lentil black-eyed pea scallion. </p>
+            </div></div>
+
+            <div class="y-u-1-3">
+            <div class="item"><h3>Travelers</h3>
+                <p>Fava bean taro beetroot cress scallion celery squash arugula. Kakadu plum garbanzo ricebean broccoli garlic bok choy cauliflower kombu mung bean radish onion salad beetroot collard greens dandelion. Radish radish potato taro horseradish jícama grape. </p>
+            </div>    
+            </div>
+            
+            <div class="y-u-1-3">
+            <div class="item"><h3>About Us</h3>
+                <p>Carrot tigernut lettuce garbanzo rock melon squash fava bean. Gumbo onion amaranth welsh onion sorrel ricebean celtuce nori yarrow corn turnip jícama mustard. Spring onion cress okra cabbage watercress yarrow gourd tomato caulie broccoli collard greens tomatillo peanut lentil beetroot welsh onion garlic. Bitterleaf sierra leone bologi cabbage sea lettuce salad green bean seakale celery. Desert raisin avocado arugula zucchini chicory mustard pumpkin sorrel. </p>
+            </div>
+            </div>
+
+</div>
+		
+		<footer>- Marketing and web by Fair Traveler -</footer>
+        
+          <script>                                                                                          
+ var imgCont = document.getElementById('changingImg'),   
+ badImgCont = document.getElementById('changingBadImg'), 
+ hotelQuote = document.getElementById('hotelQuote'),                                                
+ imgList = [
+  {src: '../public/image/bg3.jpg', badSrc: '../public/image/badbg4.jpg', quote:"We give remaining food to homeless people", hotel:"Green Hotel"},
+  {src: '../public/image/bg4.jpg', badSrc: '../public/image/badbg1.jpg', quote:"All our energy comes from the stones", hotel:"Lonely Stones"},
+  {src: '../public/image/bg2.jpg', badSrc: '../public/image/badbg3.jpg', quote:"Clean the beach, get free cocktails!", hotel:"Waikiki Bungalow"}
+  ],  
+  index = Date.now()%(imgList.length);                                                              
+
+                                                  
+    imgCont.src = imgList[index].src;       
+    badImgCont.src = imgList[index].badSrc;
+    //hotelQuote.innerHTML ="<p>"+imgList[index].quote + " <span>"+ imgList[index].hotel + " </span><p>";
+
+  </script>     
+        
+	</body>
+</html>

@@ -1,0 +1,64 @@
+h1 {
+	line-height: 1;
+	margin-top: 0;
+}
+
+.hotelProfile {
+	text-align: center;
+	line-height: 1.5;
+    margin-top: 30px;
+}
+
+#hotelPhotos img{
+    margin: 30px 0 0 30px;
+    width: 85%;
+}
+
+.item {
+	color: #333;
+	text-align: left;
+	padding: 10px;
+	margin: 30px;
+}
+
+.title {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.ecoBadges {
+	text-align: center;
+	margin-top: 30px;
+}
+.ecoBadges img {
+	vertical-align: middle;
+	height: 15%;
+	width: 15%;
+	margin: 0 5px;
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.reviewText {
+    color: #333;
+    float: left;
+    margin: -70px 0 30px 80px;
+}
+
+.avatar {
+    width: 64px;
+    float: left;
+}
+
+#membership {
+	color: lightgrey;
+}
+
+#providerDescription, #reviews {
+    text-align: justify;
+    border-top: 3px solid lightgrey;
+}
+
+

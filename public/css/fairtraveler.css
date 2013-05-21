@@ -1,0 +1,159 @@
+/* {
+	border: 1px solid lightblue;
+}*/
+
+/*HTML Elements*/
+body {
+	width: 1280px;
+    min-width: 960px;
+	margin: 30px auto;
+	font-family: Verdana;
+}
+
+div {
+	color: #ACACAC;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+a, a:hover, a:visited {
+	color: darkgrey;
+	text-decoration: none;
+}
+
+header {
+	height: 30px;
+}
+
+footer {
+	color: lightgrey;
+    font-size: 12px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+/*Page Elemets*/
+#title {
+	color: darkgrey;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: right;
+}
+
+#login {
+	float: right;
+	margin-right: 60px;
+}
+#login img {
+	margin-left: 8px;
+}
+
+#content{ 
+	height: 450px;
+	margin-top: 30px;
+}
+#content img.background {
+	width: 100%;
+}
+
+#logo {
+    width: 20%;
+    display: inline;
+    position: relative;
+    z-index: 2;
+    
+}
+#logo {
+    position: absolute;
+    width: 35%;
+    top: 40%;
+    left: -6%;
+}
+
+#box-search {
+	font-size: 14px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 200px;
+	position: absolute;
+	top: 30px;
+	right: 60px;
+	padding: 3% 2%;
+}
+#box-search input {
+	font-size: 14px;
+	width: 95%;
+	margin-bottom: 15px;
+}
+#box-search button {
+	float: right;
+	margin-bottom: 30px;
+}
+#box-search img {
+	width: 22.5%;
+	margin: 10px 0 15px;
+}
+
+/*Hotel quotes*/
+#hotelQuote {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 5px 30px;
+  font-size: 16px;
+  color: #ECC622;
+  position: absolute;
+  left: -12%;
+  top: 71%;
+  width: 45%;
+  font-family: Chalkduster, serif;
+  
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  -moz-border-radius: 15px;
+  
+}
+#hotelQuote span {
+  color: orange;
+}
+
+#tripleDesc{
+    width:100%;
+    margin: auto;
+    
+}
+
+#tripleDesc .item {
+
+    margin: 0px 25px;
+    padding: 10px;
+    /*order-radius: 5px;
+    background: rgba(0,0,0,0.6);
+    */
+}
+#tripleDesc .item h3, #tripleDesc .item p {
+        line-height: 1.5;
+    color: rgba(4,0,44, 0.6);
+    margin: 1px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+/*Class Elements*/
+.left{ 
+	float: left;
+	width: 33.2%;
+}
+
+.right {
+	position: relative;
+	float: right;	
+	width: 66.4%; 
+}
+
+/*Media Query*/
+@media screen and (max-width: 1280px) {
+	body {
+		width: 100%;
+	}
+}
